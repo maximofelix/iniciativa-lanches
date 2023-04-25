@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciativa Lanches | Usuários - Incluir</title>
+</head>
+<body>
+    <header>
+        <img src="../../imagens/banner.png" />
+        <h1>Iniciativa Lanches</h1>
+        <fieldset>
+          <legend>Menu</legend>
+          <ul>
+            <li><a href="/categorias/">Categorias</a></li>
+            <li><a href="/produtos/">Produtos</a></li>
+            <li><a href="/usuarios/">Usuários</a></li>
+          </ul>
+        </fieldset>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Cadastro do Usuário</legend>
+            Nome:<br />
+            <input id="txtNome" type="text" required="true" /><br />
+            Email:<br />
+            <input id="txtEmail" type="email" required="true" /><br />
+            Data de Nascimento:<br />
+            <input id="txtDataNasc" type="date" /><br />
+            Sexo:<br />
+            <select id="cbxSexo" title="sexo">
+                <option value=" ">-- Selecione uma opção --</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+            </select><br />
+            Telefone:<br />
+            <input id="txtTelefone" type="text" /><br />
+            Endereço:<br />
+            <input id="txtEndereco" type="text" /><br />
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Dados de acesso</legend>
+            Login:<br />
+            <input id="txtLogin" type="text" /><br />
+            Senha:<br />
+            <input id="txtSenha" type="password" />
+        </fieldset>
+        <br />
+        <button id="btnSalvar" type="button" onclick="incluir()">Salvar</button> <br/>
+        <a href="..">Voltar</a>
+    </main>
+    <footer>
+        Desenvolvido por: Nome do Aluno
+    </footer>
+</body>
+</html>
