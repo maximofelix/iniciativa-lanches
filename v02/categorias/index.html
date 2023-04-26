@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Iniciativa Lanches</h1>
+        <ul>
+            <li><a href="../">Início</a></li>
+            <li><a href="../categorias/">Categorias</a></li>
+            <li><a href="../produtos/">Produtos</a></li>
+            <li><a href="../usuarios/">Usuários</a></li>
+        </ul>
+        <hr/>
+    </header>
+    Página de Categorias<br/>
+    <button type="button" onclick="window.location.href='incluir/'">Novo</button>
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Ordem</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Entrada</td>
+            <td>Pratos de Entrada</td>
+            <td>1</td>
+            <td>
+                <button type="button" onclick="window.location.href='alterar/?id=1'">Alterar</button>
+                <button type="button" onclick="excluir(1)">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Bebidas</td>
+            <td>Sucos e Refrigerantes</td>
+            <td>3</td>
+            <td>
+                <button type="button" onclick="window.location.href='alterar/?id=2'">Alterar</button>
+                <button type="button" onclick="excluir(2)">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Churrasco</td>
+            <td>Pratos de churrasco na brasa</td>
+            <td>2</td>
+            <td>
+                <button type="button" onclick="window.location.href='alterar/?id=3'">Alterar</button>
+                <button type="button" onclick="excluir(3)">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Acompanhamentos</td>
+            <td>Fritas, pão de alho</td>
+            <td>4</td>
+            <td>
+                <button type="button" onclick="window.location.href='alterar/?id=6'">Alterar</button>
+                <button type="button" onclick="excluir(6)">Excluir</button>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
