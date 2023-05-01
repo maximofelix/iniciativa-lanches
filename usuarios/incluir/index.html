@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciativa Lanches | Usuários - Incluir</title>
+    <link rel="stylesheet" href="../../assets/css/base.css" />
 </head>
 <body>
     <header>
@@ -21,35 +22,35 @@
         </fieldset>
     </header>
     <main>
-        <fieldset>
+        <fieldset class="grupo">
             <legend>Cadastro do Usuário</legend>
-            Nome:<br />
-            <input id="txtNome" type="text" required="true" /><br />
-            Email:<br />
-            <input id="txtEmail" type="email" required="true" /><br />
-            Data de Nascimento:<br />
-            <input id="txtDataNasc" type="date" /><br />
-            Sexo:<br />
+            Nome:
+            <input id="txtNome" type="text" required="true" />
+            Email:
+            <input id="txtEmail" type="email" required="true" />
+            Data de Nascimento:
+            <input id="txtDataNasc" type="date" />
+            Sexo:
             <select id="cbxSexo" title="sexo">
                 <option value=" ">-- Selecione uma opção --</option>
                 <option value="M">Masculino</option>
                 <option value="F">Feminino</option>
-            </select><br />
-            Telefone:<br />
-            <input id="txtTelefone" type="text" /><br />
-            Endereço:<br />
-            <input id="txtEndereco" type="text" /><br />
+            </select>
+            Telefone:
+            <input id="txtTelefone" type="text" />
+            Endereço:
+            <input id="txtEndereco" type="text" />
         </fieldset>
-        <br />
-        <fieldset>
+        
+        <fieldset class="grupo">
             <legend>Dados de acesso</legend>
-            Login:<br />
-            <input id="txtLogin" type="text" /><br />
-            Senha:<br />
+            Login:
+            <input id="txtLogin" type="text" />
+            Senha:
             <input id="txtSenha" type="password" />
         </fieldset>
-        <br />
-        <button id="btnSalvar" type="button" onclick="incluir()">Salvar</button> <br/>
+        
+        <button id="btnSalvar" type="button" onclick="incluir()">Salvar</button> 
         <a href="..">Voltar</a>
     </main>
     <footer>

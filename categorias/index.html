@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciativa Lanches | Categoria</title>
+    <link rel="stylesheet" href="../assets/css/base.css" />
 </head>
 <body>
     <header>
@@ -21,6 +22,51 @@
       </fieldset>
     </header>
     <a href="../categorias/incluir/">Novo</a><br/>
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Ordem</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Entrada</td>
+            <td>Pratos de Entrada</td>
+            <td>1</td>
+            <td>
+                <button type="button" onclick="window.location.href='alterar/?id=1'">Alterar</button>
+                <button type="button" onclick="window.location.href='excluir/?id=1'">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Bebidas</td>
+            <td>Sucos e Refrigerantes</td>
+            <td>3</td>
+            <td>
+                <button type="button" onclick="window.location.href='alterar/?id=2'">Alterar</button>
+                <button type="button" onclick="window.location.href='excluir/?id=2'">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Churrasco</td>
+            <td>Pratos de churrasco na brasa</td>
+            <td>2</td>
+            <td>
+                <button type="button" onclick="window.location.href='alterar/?id=3'">Alterar</button>
+                <button type="button" onclick="window.location.href='excluir/?id=3'">Excluir</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Acompanhamentos</td>
+            <td>Fritas, pão de alho</td>
+            <td>4</td>
+            <td>
+                <button type="button" onclick="window.location.href='alterar/?id=6'">Alterar</button>
+                <button type="button" onclick="window.location.href='excluir/?id=6'">Excluir</button>
+            </td>
+        </tr>
+    </table>
+
     <a href="..">Voltar</a>
 </body>
 </html>

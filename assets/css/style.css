@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(251, 255, 173);
+}
+
+main{
+    width: 95%;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, select{
+    display: block;
+    border-radius: 4px;
+    height: 20px;
+    width: 100%;
+}
+
+h1{
+    color: yellow;
+}
+
+.grupo{
+    color: white;
+}
+
+button{
+    
+    font-stretch: expanded;
+    background-color: rgb(119, 119, 166);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 0px;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+table{
+    border:2px solid black;
+}
+td{
+    border:1px solid black;
+}
