@@ -1,13 +1,48 @@
-body{
-    background-color: rgb(251, 255, 173);
-}
-
 main{
     width: 95%;
     max-width: 400px;
     margin: auto;
 }
 
+.menu{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+
+.menu li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: red;
+    background-color: rgb(75, 75, 75);
+    margin-right: 7px;
+}
+
+.menu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.topo{
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+}
+.titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: yellow;
+    margin: 0px;
+    padding: 10px;
+}
 input, select{
     display: block;
     border-radius: 4px;
@@ -15,8 +50,15 @@ input, select{
     width: 100%;
 }
 
+.fshide{
+    background-color: black;
+}
+.fshide fieldset{
+    border: none;
+}
+
 h1{
-    color: yellow;
+    color:steelblue;
 }
 
 .grupo{
@@ -35,6 +77,13 @@ button{
     border-radius: 9px;
     margin-top: 10px;
 }
+button:hover{
+    background-color:midnightblue;
+}
+button:active{
+    background-color: red;
+}
+
 table{
     border:2px solid black;
 }
